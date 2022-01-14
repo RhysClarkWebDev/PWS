@@ -1,0 +1,260 @@
+
+<html lang="en" dir="ltr">
+<head>
+
+  <link rel="stylesheet" type="text/css" href="css/resetstyle.css?v=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css?v=1.4">
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- ANIMATE ON SCROLL -->
+  <link href="node_modules/aos/dist/aos.css" rel="stylesheet">
+  <script src="node_modules/aos/dist/aos.js"></script>
+
+
+  <meta name="description" content="At PWS we specialise in bespoke residential and domestic architectural design at all scales. Get in touch with our award winning team to perfect your home.">
+  <title>PWS Architecture & Design</title>
+  <script src="js/createjs.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+
+  <!--FAVICON-->
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+  <body>
+    <script>
+      AOS.init();
+    </script>
+    <header class="homeHeader">
+      <div class="navigation-mobile">
+    		<nav class="navBar">
+    			<div class="hamburger-menu">
+    				<div class="line line-1"></div>
+    				<div class="line line-2"></div>
+    				<div class="line line-3"></div>
+    			</div>
+    			<ul class="nav-list">
+    				<li class="nav-list">
+    					<a href="index.html" class="nav-link">Home</a>
+    				</li>
+    				<li class="nav-list">
+    					<a href="about.html" class="nav-link">Meet the Team</a>
+    				</li>
+    				<li class="nav-list">
+    					<a href="projects.html" class="nav-link">Projects</a>
+    				</li>
+    				<li class="nav-list">
+    					<a href="contact.php" class="nav-link">Contact</a>
+    				</li>
+            <li class="nav-list">
+    					<a href="live-demo.html" class="nav-link">3D Live Demo</a>
+    				</li>
+    			</ul>
+    		</nav>
+    	</div>
+    </header>
+
+<canvas id="projector">Your browser does not support the Canvas element.</canvas>
+
+    <!--<img src="images/background.jpg" id="bg" alt="">-->
+    <a href="contact.php">
+      <div class="constantContact">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="34" viewBox="0 0 36 34">
+          <defs>
+            <clipPath id="clip-path">
+              <rect id="Rectangle_31" data-name="Rectangle 31" width="36" height="34" transform="translate(-0.489 -0.455)" fill="#fff" stroke="#707070" stroke-width="1"/>
+            </clipPath>
+          </defs>
+          <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(0.489 0.455)" clip-path="url(#clip-path)">
+            <g id="mail" transform="translate(0 5.136)">
+              <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+                <path id="Path_9" data-name="Path 9" d="M33.451,9.333H1.808A1.813,1.813,0,0,0,0,11.141v19.89a1.814,1.814,0,0,0,1.808,1.808H33.451a1.814,1.814,0,0,0,1.808-1.808V11.141A1.814,1.814,0,0,0,33.451,9.333Zm-.679,1.356L18.67,21.267a1.89,1.89,0,0,1-2.08,0L2.487,10.689ZM25.239,21.965l7.685,9.493c.008.01.017.017.025.025H2.31c.008-.009.018-.016.025-.025l7.685-9.493a.678.678,0,0,0-1.054-.854l-7.61,9.4V11.537l14.42,10.815a3.237,3.237,0,0,0,3.707,0L33.9,11.537V30.512l-7.609-9.4a.678.678,0,0,0-1.054.854Z" transform="translate(0 -9.333)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </a>
+
+    <div class="mainImageOverlay">
+      <a href="index">
+        <img class="leftLogo" src="images/Logo.jpg" alt="PWS ARCHITECT Logo">
+      </a>
+      <h1>MEET THE TEAM</h1>
+      <div class="blurredBorderMain"></div>
+    </div>
+    <div class="mainImage">
+      <img src="images/teamMain.jpg" alt="">
+    </div>
+    <div class="underImageSVG">
+      <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" preserveAspectRatio="none" viewBox="0 0 1200 109.99"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" fill="#111111" fill-opacity="1"></path><path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" fill="#111111" fill-opacity="1"></path><path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" fill="#111111" fill-opacity="1"></path>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="aboutIntro">
+        <h2>ABOUT</h2>
+        <p>At PWS we specialise in bespoke residential architectural design and domestic architectural design at all scales. We are a small dedicated team with awards in; design quality, sustainable design and service. Our practice is based in Medomsley Village, near Durham and we accept commissions across the UK wherever our services are needed. </p>
+        <p style="font-style: italic; margin-top: 15px;">“I chose the name PWS because I wanted my business to be personal; to let my clients know me as much as I will get to know them, this open dialogue between us from the start is what creates architecture with a purpose to serve its user” </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>THE TEAM</h2>
+      <div class="teamHint">
+        <p>(Give us a click)</p>
+      </div>
+      <div class="staffImagesSection">
+
+        <div class="scene" data-aos="fade-down" data-aos-offset="200" data-aos-duration="500">
+          <div class="card">
+            <div class="card__face card__face--front">
+              <img src="images/phil.jpg" alt="">
+            </div>
+            <div class="card__face card__face--back">
+              <h3>Phil Wontner-Smith Ba(Hons) M.Arch - Director</h3>
+              <p>"I was dreaming of designing from a young age, starting with furniture in school at age 11 I  created ornate storage boxes to chairs and even a guitar. I then went onto study 3D design at Leeds College of Art where I used a fusion of skills to create sculptural pieces combined with technology to ensure my placement at Northumbria University where I studied architecture at both a bachelors and masters level. I have a passion for environmentally friendly architecture as well as conservation and working on old buildings”</p>
+              <p>In his spare time Phil is also a nationally ranked strongman competitor who has claimed 3rd place at the ‘UKs strongest man truck pulling championship’ in the under 110kg category. He is also a family man with a toddler, fiancé and two energetic dogs.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="scene" data-aos="fade-up" data-aos-offset="200" data-aos-duration="500">
+          <div class="card card2">
+            <div class="card__face card__face--front">
+              <img src="images/arron.jpg" alt="">
+            </div>
+            <div class="card__face card__face--back">
+              <h3>Arron Reed Ba(Hons) M.Arch Architectural Designer</h3>
+              <p>"I was first introduced to architecture as a career path as an 18 year old, after enjoying the studio lifestyle in my school and Sixth Form art class. The dilemma for me was to pursue something that would satisfy my enjoyment of the sciences as well as my desire to be creative and problem solve and found myself enjoying the adrenaline chasing, rollercoaster ride that is architecture”.</p>
+              <p>Arron has just welcomed the arrival of his first child and is enjoying the new responsibilities of fatherhood, but in his own time is a keen sports fan, growing up being involved in youth football, table tennis and cross country competitions. To relax, Arron likes to switch off to fantasy storytelling. Whether that's through the medium of TV or paperback books, he enjoys getting lost in a fictional world from time to time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="scene scenePosition1000px" data-aos="fade-down" data-aos-offset="200" data-aos-duration="500">
+          <div class="card card3">
+            <div class="card__face card__face--front">
+              <img src="images/chloe.jpg" alt="">
+            </div>
+            <div class="card__face card__face--back">
+              <h3>Chloe Savannah Cummings Ba(Hons)</h3>
+              <p>‘’At school I wanted to be an illustrator, painting old buildings for children’s books. By the time I got to university I wanted to recreate historic buildings for film sets. This spurred my interest in architectural history and promoted me to undertake a masters degree in Historic Building Conservation at York University after my BA in Architecture and Urban Planning at Newcastle Uni’’.</p>
+              <p>Chloe has volunteered at Durham Cathedral as a tour guide and Beamish Museum as an architectural assistant; working on the new 1950s town. She is a keen reader and has a passion for classic cinema.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="container" data-aos="fade-down" data-aos-offset="200" data-aos-duration="500">
+      <h2>AWARDS</h2>
+      <div class="awards">
+
+        <a href="https://www.houzz.co.uk/professionals/architects-and-architectural-designers/pws-architecture-design-pfvwgb-pf~1924955258?" target="_blank" class="awardContainer awardSmall">
+          <div class="awardImageCenter">
+            <div class="awardImageContainer FeaturedHouzzAward imageNoText">
+              <img src="images/FeaturedHouzzAward.png" alt="Featured on Houzz PWS architecture">
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.lux-review.com/"  target="_blank" class="awardContainer awardBig awardBig-smaller">
+          <div class="awardImageCenter">
+            <div class="awardImageContainer luxLife">
+              <img src="images/luxLife.jpg" alt="PWS Architecture and design on LuxLife">
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.houzz.co.uk/professionals/architects-and-architectural-designers/pws-architecture-design-pfvwgb-pf~1924955258?" target="_blank" class="awardContainer awardSmall award100-SmallerScreen">
+          <div class="awardImageCenter">
+            <div class="awardImageContainer bestHouzzAward imageNoText">
+              <img src="images/HouzzService.png" alt="2021 Best of Houzz Service PWS Architecture">
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.build-review.com/"  target="_blank" class="awardContainer awardBig">
+          <div style="height:100%;">
+            <div class="awardImageContainer buildImage">
+              <img src="images/buildAward.png" alt="">
+            </div>
+            <div class="buildAwardText">
+              <h3>Most Outstanding Architectural Designs, County Durham, 2020</h3>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.build-review.com/"  target="_blank" class="awardContainer awardBig">
+          <div style="height:100%;">
+            <div class="awardImageContainer buildImage">
+              <img src="images/buildAward.png" alt="">
+            </div>
+            <div class="buildAwardText">
+              <h3>Best Bespoke Architectural Design Practice, County Durham</h3>
+            </div>
+          </div>
+        </a>
+
+
+      </div>
+    </div>
+
+
+
+    <footer>
+      <div class="footerTop">
+        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" preserveAspectRatio="none" viewBox="0 0 1200 109.99"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill" fill="#111111" fill-opacity="1"></path><path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill" fill="#111111" fill-opacity="1"></path><path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill" fill="#111111" fill-opacity="1"></path></svg>
+      </div>
+      <div class="footerBottom">
+        <div class="footerLeft">
+          <a href="index">
+            <img src="images/Logo.png" alt="PWS ARCHITECT Logo">
+          </a>
+        </div>
+        <div class="footerCenter">
+          <div class="footerCenterPositioning">
+            <p>Phone - <a href="tel:01207260433">01207 260 433</a></p>
+            <p>Email - <a href="mailto:info@pwsarchitecture.co.uk">info@pwsarchitecture.co.uk</a></p>
+            <p><span>Copyright 2021 PWS Architecture | <a href="https://www.rhys-clark.com">Website by Rhys Clark</a></span></p>
+          </div>
+        </div>
+        <div class="footerRight">
+          <div class="socialIcons">
+            <a href="https://www.instagram.com/pwsarchitecture"  target=”_blank”><img src="images/instagram.png" alt="PWS Architect Instagram"></a>
+            <a href="https://www.facebook.com/pwsarchitecture" target=”_blank”><img src="images/facebook.png" alt="PWS Architect Facebook"></a>
+            <a href="https://www.pinterest.co.uk/648d24416fe41dd2458c099ad41a68/_saved/" target=”_blank”><img src="images/pinterest.png" alt="PWS Architect Pinterest"></a>
+            <a href="https://www.houzz.co.uk/professionals/architects-and-architectural-designers/pws-architecture-design-pfvwgb-pf~1924955258?" target=”_blank”><img src="images/houzz.png" alt="PWS Architect Houzz"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="js/master.js?version=1.1"></script>
+    <script type="text/javascript" src="js/background.js"></script>
+    <!--END OF SCRIPTS-->
+
+
+  </body>
+</html>

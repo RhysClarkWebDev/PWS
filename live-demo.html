@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="css/resetstyle.css?v=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.4">
+
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="description" content="At PWS we specialise in bespoke residential and domestic architectural design at all scales. Get in touch with our award winning team to perfect your home.">
+    <title>Live 3D Demo - PWS Architecture & Design</title>
+    <script src="js/createjs.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+
+
+
+
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTPZQ4FKPD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FTPZQ4FKPD');
+    </script>
+    <!-- END OF -->
+
+  </head>
+  <body>
+    <header class="homeHeader">
+      <div class="navigation-mobile">
+    		<nav class="navBar">
+    			<div class="hamburger-menu">
+    				<div class="line line-1"></div>
+    				<div class="line line-2"></div>
+    				<div class="line line-3"></div>
+    			</div>
+    			<ul class="nav-list">
+    				<li class="nav-list">
+    					<a href="index.html" class="nav-link">Home</a>
+    				</li>
+    				<li class="nav-list">
+    					<a href="about.html" class="nav-link">Meet the Team</a>
+    				</li>
+    				<li class="nav-list">
+    					<a href="projects.html" class="nav-link">Projects</a>
+    				</li>
+    				<li class="nav-list">
+    					<a href="contact.php" class="nav-link">Contact</a>
+    				</li>
+            <li class="nav-list">
+    					<a href="live-demo.html" class="nav-link">3D Live Demo</a>
+    				</li>
+    			</ul>
+    		</nav>
+    	</div>
+    </header>
+
+<canvas id="projector">Your browser does not support the Canvas element.</canvas>
+
+    <!--<img src="images/background.jpg" id="bg" alt="">-->
+    <a href="contact.php">
+      <div class="constantContact">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="34" viewBox="0 0 36 34">
+          <defs>
+            <clipPath id="clip-path">
+              <rect id="Rectangle_31" data-name="Rectangle 31" width="36" height="34" transform="translate(-0.489 -0.455)" fill="#fff" stroke="#707070" stroke-width="1"/>
+            </clipPath>
+          </defs>
+          <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(0.489 0.455)" clip-path="url(#clip-path)">
+            <g id="mail" transform="translate(0 5.136)">
+              <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+                <path id="Path_9" data-name="Path 9" d="M33.451,9.333H1.808A1.813,1.813,0,0,0,0,11.141v19.89a1.814,1.814,0,0,0,1.808,1.808H33.451a1.814,1.814,0,0,0,1.808-1.808V11.141A1.814,1.814,0,0,0,33.451,9.333Zm-.679,1.356L18.67,21.267a1.89,1.89,0,0,1-2.08,0L2.487,10.689ZM25.239,21.965l7.685,9.493c.008.01.017.017.025.025H2.31c.008-.009.018-.016.025-.025l7.685-9.493a.678.678,0,0,0-1.054-.854l-7.61,9.4V11.537l14.42,10.815a3.237,3.237,0,0,0,3.707,0L33.9,11.537V30.512l-7.609-9.4a.678.678,0,0,0-1.054.854Z" transform="translate(0 -9.333)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </a>
+
+
+
+
+
+    <div style="height:100vh;" class="liveDemoContainer">
+      <embed src="https://momento360.com/e/u/3e3f2a4584ed456cbfe5c2e3898bc4f3?utm_campaign=embed&utm_source=other&heading=193.68&pitch=32.07&field-of-view=75&size=medium" width="100%" height="100%"></embed>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="js/master.js?version=1.1"></script>
+    <script type="text/javascript" src="js/background.js"></script>
+    <!--END OF SCRIPTS-->
+
+
+  </body>
+</html>
